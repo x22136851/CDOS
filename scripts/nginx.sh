@@ -17,6 +17,7 @@
 ##########################################################update#################
 sudo systemctl daemon-reload
 sudo systemctl restart gunicorn
-sudo cp ngnix/ngnix.config /etc/ngnix/conf.d/ngnix.config
+sudo cp /home/ubuntu/CDOS/nginx/nginx.conf /etc/nginx/sites-available/onlinequiz
+#sudo cp ngnix/ngnix.config /etc/ngnix/conf.d/ngnix.config
 sudo nginx -t
 sudo systemctl restart nginx
