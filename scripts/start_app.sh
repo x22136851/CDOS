@@ -1,6 +1,7 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/CDOS/blog/settings.py
+sed -i 's/\[]/\["34.253.223.106"]/' /home/ubuntu/CDOS/onlinequiz-master/onlinequiz/settings.py
+
 
 python manage.py migrate 
 python manage.py makemigrations     
