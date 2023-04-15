@@ -12,3 +12,6 @@ sudo usermod -a -G www-data ubuntu
 sudo nginx -t
 sudo gpasswd -a www-data ubuntu
 sudo systemctl restart nginx
+
+
+
