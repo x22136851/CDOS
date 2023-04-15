@@ -8,5 +8,7 @@ sudo cp /home/ubuntu/CDOS/nginx/nginx.conf /etc/nginx/sites-available/onlinequiz
 sudo ln -s /etc/nginx/sites-available/onlinequiz /etc/nginx/sites-enabled/
 #sudo ln -s /etc/nginx/sites-available/blog /etc/nginx/sites-enabled
 #sudo nginx -t
+sudo usermod -a -G www-data ubuntu
+
 sudo gpasswd -a www-data ubuntu
 sudo systemctl restart nginx
