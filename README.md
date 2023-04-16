@@ -1,5 +1,4 @@
 # Online Quiz
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
 ---
 ## screenshots
 ### Homepage
@@ -47,14 +46,14 @@ py manage.py createsuperuser
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
 ```
-python -m pip install -r requirements. txt
+python -m pip install -r requirements.txt
 ```
 - Download This Project Zip Folder and Extract it
 - Move to project folder in Terminal. Then run following Commands :
 ```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver || python manage.py runserver 0.0.0.0:8080
 ```
 - Now enter following URL in Your Browser Installed On Your Pc
 ```
@@ -73,7 +72,4 @@ EMAIL_RECEIVING_USER = 'youremail@gmail.com'
 - Admin/Teacher can add any number of questions to any course, But while adding course, admin provide question number.
 
 
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+
